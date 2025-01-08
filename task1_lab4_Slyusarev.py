@@ -23,8 +23,6 @@ class OnlineShooter:
         self.release_year = release_year
         self.platforms = platforms
         self._player_count = player_count
-        # Инкапсулируем, так как не меняем
-        # напрямую
 
     def __str__(self):
         """
